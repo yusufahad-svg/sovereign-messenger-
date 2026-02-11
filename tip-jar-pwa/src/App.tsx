@@ -11,7 +11,7 @@ import { Buffer } from 'buffer';
 import '@solana/wallet-adapter-react-ui/styles.css';
 
 const NETWORK = 'mainnet-beta';
-// Using your actual valid wallet address to prevent "Invalid public key input" crash
+// GUARANTEED VALID PUBLIC KEY - Prevents startup crash
 const TREASURY_WALLET = new PublicKey('3id7PLHGphEzBEzobaBynsB5p9Ui1s15WWF24setZyea');
 const SKR_TOKEN_MINT = new PublicKey('TokenkegQFEZ2Dxr1zk8JWVYj3G2yv2NNfGruvwi');
 const TOKEN_PROGRAM_ID = new PublicKey('TokenkegQFEZ2Dxr1zk8JWVYj3G2yv2NNfGruvwi');
