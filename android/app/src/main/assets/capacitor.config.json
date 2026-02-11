@@ -1,7 +1,7 @@
 {
 	"appId": "com.sovereign.messenger",
 	"appName": "SovereignMessenger",
-	"webDir": "build",
+	"webDir": "tip-jar-pwa/dist",
 	"server": {
 		"url": "https://web-production-f59a4.up.railway.app/",
 		"cleartext": true
