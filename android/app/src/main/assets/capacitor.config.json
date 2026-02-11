@@ -1,0 +1,9 @@
+{
+	"appId": "com.sovereign.messenger",
+	"appName": "SovereignMessenger",
+	"webDir": "build",
+	"server": {
+		"url": "https://web-production-f59a4.up.railway.app/",
+		"cleartext": true
+	}
+}
